@@ -41,7 +41,12 @@ const Home = () => {
               and define your own taste.
             </p>
 
-            <CustomButton></CustomButton>
+            <CustomButton
+            type="filled"
+            title="Customize it"
+            handleClick={() => state.intro = false}
+            customStyles= "w-fit px-4 py-2.5 fond-bold text-sm"
+            ></CustomButton>
           </motion.div>
         </motion.div>
        </motion.section>
